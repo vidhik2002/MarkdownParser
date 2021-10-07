@@ -1,4 +1,6 @@
-
+body {
+    background-color: aqua;
+}
 .preview {
     display: flex;
     justify-content: space-evenly !important;

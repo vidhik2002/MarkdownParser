@@ -6,13 +6,17 @@
       <div class="row">
         <div class="col"> 
           <h2>Markdown</h2>
-          <textarea class="info" />
+          <textarea 
+          class="info"
+          v-model="markdown" />
         </div>
       </div>
       <div class="row">
         <div class="col">
           <h2>Preview</h2>
-          <textarea class="info" />
+          <div class="info">
+            {{markdown}}
+          </div>
         </div>
       </div> 
     </div> 
@@ -23,14 +27,18 @@
 
 export default {
   name: 'App',
-  components: {
-  }
+  data(){
+  return {
+    markdown : "",
+  };
+},
 }
 </script>
 
 <style scoped>
 .info {
-height: 400px;
-width:400px;
+  height: 400px;
+  width: 400px;
+  background-color:white;
 }
 </style>

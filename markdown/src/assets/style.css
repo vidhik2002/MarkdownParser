@@ -1,0 +1,11 @@
+
+.preview {
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items: center;
+    flex-direction: row;
+    /* margin-right: 3rem; */
+}
+h1 {
+    margin-left: 40%;
+}

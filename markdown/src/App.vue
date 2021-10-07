@@ -1,9 +1,20 @@
 <template>
+
   <div class="container">
-    <div class="row">
-      <div class="col">
-        <h1>Markdown preview</h1>
+  <h1>Markdown preview</h1>
+  <div class="preview">
+      <div class="row">
+        <div class="col"> 
+          <h2>Markdown</h2>
+          <textarea class="info" />
+        </div>
       </div>
+      <div class="row">
+        <div class="col">
+          <h2>Preview</h2>
+          <textarea class="info" />
+        </div>
+      </div> 
     </div> 
   </div>
 </template>
@@ -17,13 +28,9 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+.info {
+height: 400px;
+width:400px;
 }
 </style>

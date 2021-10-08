@@ -1,8 +1,14 @@
+const rules = [
+    [/#{6}\s?([^\n]+)\n/g, '<h6>$1</h6>']
+]
 export default {
     bind(el){
         // console.log('el', el.textContent);
         let html = el.textContent;
-        html = html.replace(/#{6}\s?([^\n]+)\n/g, 'replaced' );
+        rules.forEach(([rule, template]) => {
+            html= html.replace(rule, template)
+        })
+        html = html.replace( );
         el.innerHTML = html;
     }
 }

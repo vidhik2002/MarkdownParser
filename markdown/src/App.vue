@@ -42,6 +42,5 @@ export default {
 .info {
   height: 400px;
   width: 400px;
-  background-color:white;
 }
 </style>

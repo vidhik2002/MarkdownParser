@@ -14,7 +14,10 @@
       <div class="row">
         <div class="col">
           <h2>Preview</h2>
-          <div class="info">
+          <div 
+          class="info"
+          v-markdown
+          >
             {{markdown}}
           </div>
         </div>

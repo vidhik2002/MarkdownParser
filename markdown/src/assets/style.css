@@ -13,6 +13,10 @@ body {
 .info{
     background-color:black;
     color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
 }
 h1 {
     margin-left: 40%;

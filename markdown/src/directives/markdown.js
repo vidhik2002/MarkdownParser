@@ -9,7 +9,9 @@ const rules = [
     //bold, italics and paragragh rules
     [/\*\*\s?([^\n]+)\*\*/g, '<b>$1</b>'],
     [/\*\s?([^\n]+)\*/g, '<i>$1</i>'],
-    [/([^\n]+\n)/g, '<p>$1</p>']
+    [/([^\n]+\n)/g, '<p>$1</p>'],
+    //links
+    [/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>'],
 ]
 export default {
     bind(el){

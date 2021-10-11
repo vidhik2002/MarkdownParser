@@ -1,5 +1,5 @@
 const rules = [
-    [/#{6}\s?([^\n]+)\n/g, '<h6>$1</h6>']
+    [/#{6}\s?([^\n]+)/g, '<h6>$1</h6>']
 ]
 export default {
     bind(el){

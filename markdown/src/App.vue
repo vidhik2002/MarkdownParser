@@ -1,7 +1,7 @@
 <template>
 
   <div class="container">
-  <h1>Markdown preview</h1>
+  <h1>Markdown Parser</h1>
   <div class="preview">
       <div class="row">
         <div class="col"> 
@@ -15,6 +15,7 @@
         <div class="col">
           <h2>Preview</h2>
           <div 
+          :key="markdown"
           class="info"
           v-markdown
           >
@@ -32,7 +33,7 @@ export default {
   name: 'App',
   data(){
   return {
-    markdown: '###### Text one\n',
+    markdown: '',
   };
 },
 }

@@ -5,7 +5,7 @@
   <div class="preview">
       <div class="row">
         <div class="col"> 
-          <h2>Markdown</h2>
+          <h2 class="align">Markdown</h2>
           <textarea 
           class="inf"
           v-model="markdown" />
@@ -13,7 +13,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <h2>Preview</h2>
+          <h2 class="align">Preview</h2>
           <div 
           :key="markdown"
           class="info"

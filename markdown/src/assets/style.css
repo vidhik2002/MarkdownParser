@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 body {
     background-color: aqua;
     background-image: url("./black-texture-background.jpg");
     color: white;
+    font-family: 'Muli', sans-serif;
 }
 .preview {
     display: flex;
@@ -22,7 +24,8 @@ body {
     /* overflow-y: scroll; */
 }
 .heading{
-    margin-left: 40%;
+    margin-left: 35%;
+    font-size: 40px;
 }
 .inf {
     background-color:black;
@@ -53,4 +56,9 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #524b4b; 
+}
+.align {
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
 }

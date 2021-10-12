@@ -1,6 +1,6 @@
 body {
     background-color: aqua;
-    background-image: url("./background.jpg");
+    background-image: url("./black-texture-background.jpg");
     color: white;
 }
 .preview {
@@ -31,4 +31,5 @@ body {
     border: none;
     outline: none;
     border-radius: 5px;
+    overflow: auto;
 }

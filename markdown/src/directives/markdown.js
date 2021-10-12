@@ -17,6 +17,8 @@ const rules = [
   //highlights
 //   [/(^`{1}\s?)([^\n]+)(\s?`{1})/g, "<code>$2</code>"],
   [/(`{3}sh\s?\n)(([^`]+)\s?\n)(`{3})/g, "<code>$2</code>"],
+  //Table
+  
 ];
 export default {
     bind(el){

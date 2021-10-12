@@ -48,4 +48,7 @@ export default {
   height: 400px;
   width: 400px;
 }
+textarea {
+  resize: none;
+}
 </style>

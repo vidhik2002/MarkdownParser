@@ -1,7 +1,7 @@
 <template>
 
   <div class="container">
-  <h1>Markdown Parser</h1>
+  <h1 class="heading">Markdown Parser</h1>
   <div class="preview">
       <div class="row">
         <div class="col"> 

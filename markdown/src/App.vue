@@ -7,7 +7,7 @@
         <div class="col"> 
           <h2>Markdown</h2>
           <textarea 
-          class="info"
+          class="inf"
           v-model="markdown" />
         </div>
       </div>
@@ -41,6 +41,10 @@ export default {
 
 <style scoped>
 .info {
+  height: 400px;
+  width: 400px;
+}
+.inf {
   height: 400px;
   width: 400px;
 }

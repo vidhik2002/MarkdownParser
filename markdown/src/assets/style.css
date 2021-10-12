@@ -17,7 +17,18 @@ body {
     border: none;
     outline: none;
     border-radius: 5px;
+    word-wrap: break-word;
+    overflow: auto;
+    /* overflow-y: scroll; */
 }
 .heading{
     margin-left: 40%;
+}
+.inf {
+    background-color:black;
+    color: white;
+    /* padding: 10px; */
+    border: none;
+    outline: none;
+    border-radius: 5px;
 }

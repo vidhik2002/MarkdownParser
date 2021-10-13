@@ -41,7 +41,6 @@ const rules = [
 ];
 export default {
     bind(el){
-        // console.log('el', el.textContent);
         let html = el.textContent;
         rules.forEach(([rule, template]) => {
             html= html.replace(rule, template)

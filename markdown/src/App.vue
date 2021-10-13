@@ -41,12 +41,12 @@ export default {
 
 <style scoped>
 .info {
-  height: 400px;
-  width: 400px;
+  height: 600px;
+  width: 600px;
 }
 .inf {
-  height: 400px;
-  width: 400px;
+  height: 600px;
+  width: 600px;
 }
 textarea {
   resize: none;

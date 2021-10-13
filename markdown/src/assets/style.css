@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 body {
-    background-color: aqua;
+    background-color: rgb(139, 139, 139);
     background-image: url("./black-texture-background.jpg");
     color: white;
     font-family: 'Muli', sans-serif;
@@ -61,4 +61,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 35%;
+}
+a:hover {
+  text-decoration:underline;
+  color: blue;
 }

@@ -43,6 +43,7 @@ export default {
 .info {
   height: 600px;
   width: 600px;
+  padding:10px;
 }
 .inf {
   height: 600px;

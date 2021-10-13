@@ -41,8 +41,8 @@ export default {
 
 <style scoped>
 .info {
-  height: 600px;
-  width: 600px;
+  height: 590px;
+  width: 580px;
   padding:10px;
 }
 .inf {

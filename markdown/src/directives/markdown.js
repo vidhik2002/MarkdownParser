@@ -20,10 +20,10 @@ const rules = [
   //highlights
   [
     /(`\s?)([^\n]+)(\s?`)/g,
-    '<a style="background-color:grey;color:black;text-decoration: none;margin-left:5%">$2</a>'
+    '<a style="background-color:grey;color:black;text-decoration: none;">$2</a>'
   ],
   // [
-  //   /(`{3}sh\s?\n)(([^`]+)\s?\n)(`{3})/g,
+  //   /(```sh\n)(([^`]+)\s?\n)(```)/g,
   //   '<a style="background-color:grey;color:black;text-decoration: none;margin-left:5%">$3<br></a>',
   // ],
   
@@ -32,6 +32,12 @@ const rules = [
   [/((\n\*.+)+)/g, "<ul>$1</ul>"],
   // [/\n\d\.([^\n]+)/g, "<li>$1</li>"],
   [/\n\*([^\n]+)/g, "<li>$1</li>"],
+
+  [/([^\n]+)\n\s+=+/g, '<h1>$1</h1><hr />'],
+  [/([^\n]+)\n\s+-+/g, '<h2>$1</h2><hr />'],
+
+  //Image
+  [/!\[([^\]]+)\]\(([^)]+)\s"([^")]+)"\)/g, '<img src="$2" alt="$1" title="$3" />'],
 ];
 export default {
     bind(el){

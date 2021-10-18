@@ -1,7 +1,7 @@
 # MarkdownParser
-A markdown parser made in Vue.js !
+A markdown parser made in Vue.js and Regex!
 
-#### Pre-requisite
+#### Pre-requisites
 - [Vue.js](https://vuejs.org/)
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
@@ -25,4 +25,3 @@ cd markdown
 npm i
 npm run serve
 ```
-

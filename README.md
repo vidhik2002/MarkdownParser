@@ -18,7 +18,7 @@ git clone https://github.com/vidhik2002/MarkdownParser.git
 ```
 3. Move into folder
 ```sh
-cd markdown
+cd MarkdownParser/markdown
 ```
 4. Run the commands
 ```sh

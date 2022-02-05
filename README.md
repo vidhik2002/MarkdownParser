@@ -1,6 +1,8 @@
 # MarkdownParser
 A markdown parser made in Vue.js and Regex!
 
+Read about this project [here](https://medium.com/@vidhik2002/create-your-own-markdown-parser-bffb392a06db) !
+
 ## Pre-requisites
 - [Vue.js](https://vuejs.org/)
 - [Node.js](https://nodejs.org/en/)
